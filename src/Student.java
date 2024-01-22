@@ -18,6 +18,7 @@ public class Student extends Person {
 
     //This toString() returns the students's first name, last name, and phone number calling the person's toString() with super.
     //It also returns the grade.
+    @Override
     public String toString() {
         return super.toString() + " Grade: " + grade;
     }

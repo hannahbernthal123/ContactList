@@ -28,6 +28,7 @@ public class Athlete extends Person {
 
     //This toString() returns the athletes's first name, last name, and phone number calling the person's toString() with super.
     //It also returns the sport and level.
+    @Override
     public String toString() {
         return super.toString() + " Sport: " + level + " " + sport;
     }
