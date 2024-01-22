@@ -1,3 +1,4 @@
+//Hannah Bernthal
 public class Person {
     private String firstName;
     private String lastName;
@@ -9,6 +10,7 @@ public class Person {
         this.phoneNumber = phoneNumber;
     }
 
+    //These are the getter and setter methods.
     public String getFirstName() {
         return firstName;
     }
@@ -33,8 +35,11 @@ public class Person {
         this.phoneNumber = phoneNumber;
     }
 
+    //This toString() returns the person's first name, last name, and phone number.
     public String toString() {
         return firstName + " " + lastName + " - #" + phoneNumber;
     }
+
+
 
 }
